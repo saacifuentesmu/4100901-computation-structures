@@ -1,8 +1,15 @@
 # Computation Structures — UNAL 4100901
 
-Bare-metal embedded systems on the **STM32L476RG (Cortex-M4)**, taught at the
-Universidad Nacional de Colombia, Sede Manizales. This is the course hub: the
-material lives across the repositories below, ordered the way the semester runs.
+A course about **learning hardware**, using an **ARM Cortex-M4 (STM32L476RG)** and a
+dev kit as the vehicle. Taught at the Universidad Nacional de Colombia, Sede
+Manizales. The goal isn't the chip — it's understanding what's underneath it: how a
+processor is built, how it talks to the world, and why the silicon behaves the way it
+does. The ARM + NUCLEO board is just a concrete, accessible instrument for getting
+there. *(An ideal version of this course would have students design their own
+RISC-V core — same goal, deeper down the stack.)*
+
+This is the course hub: the material lives across the repositories below, ordered the
+way the semester runs.
 
 The through-line is one system — a **room-control device** — built three times,
 each time closer to a real product:
@@ -58,10 +65,11 @@ ESP-01 Wi-Fi module.
 
 ## What it demonstrates
 
-Embedded teaching built around a single product that grows from register access to
-a networked system — register-level fluency and HAL-based engineering side by side,
-with modular drivers, instrumented measurement (logic analyzer / scope), and design
-patterns carried through to the final project.
+Hardware understanding taught through a single product that grows from register
+access to a networked system — register-level fluency and HAL-based engineering side
+by side, with modular drivers, instrumented measurement (logic analyzer / scope), and
+design patterns carried through to the final project. The ARM dev kit is the
+teaching instrument; the lasting takeaway is how the machine works underneath.
 
 ---
 
