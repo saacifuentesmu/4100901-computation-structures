@@ -15,6 +15,29 @@ each time closer to a real product:
 The midterm and the two hardware labs sit in between as checkpoints. Course
 material is in Spanish; repo names and this overview are in English.
 
+## First month — foundations (lectures)
+
+The semester opens with three lecture sessions that set the context and review the
+digital-systems background before any code is written:
+
+1. **Intro — from microchip to MCU.** What an IC is and how it's fabricated
+   (photolithography, doping), then processor → CPU → system bus → embedded
+   systems → MCU / SoC / SiP, and the system clock.
+2. **Digital circuits.** A digital-systems review — information and encoding, the
+   digital abstraction (representing data with voltages in a noisy world), CMOS,
+   and combinational devices. Follows MIT 6.004
+   ([computationstructures.org](https://computationstructures.org/)).
+3. **Programmable architectures.** How a computer is built and how C becomes a
+   binary (preprocess → compile → assemble → link); Von Neumann vs Harvard; the
+   ARM Cortex-A/R/M families; Cortex-M as a load/store machine; and the STM32L476
+   memory layout and AHB bus matrix.
+
+Session 3 leads directly into **assembly and bare-metal programming**, whose hands-on
+material lives in the [bare-metal foundations repo](https://github.com/saacifuentesmu/4100901-1-bare-metal-foundations)
+(`Doc/2_ASM_CONFIG.md`, `3_WORKSHOP_ASM.md`, `4_WORKSHOP_C.md`). The midterm opens
+with a 20-minute [foundations quiz](https://github.com/saacifuentesmu/4100901-3-midterm-room-control/blob/main/QUIZ.md)
+drawn from these three sessions.
+
 ## Course path
 
 | # | Module | Repository | What it covers |
