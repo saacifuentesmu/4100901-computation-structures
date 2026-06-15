@@ -46,7 +46,7 @@ with a 20-minute [foundations quiz](https://github.com/saacifuentesmu/4100901-3-
 drawn from these three sessions.
 
 The very first hands-on session is a guided
-[intro practice](https://github.com/saacifuentesmu/4100901-Intro_Project) that doubles
+[intro practice](https://github.com/saacifuentesmu/4100901-0-Intro_Project) that doubles
 as a dev-environment check: get the toolchain working (VS Code, STM32CubeMX, HAL) and
 make the board respond to a button over UART — heartbeat LED, a 3 s "unlock" output,
 and serial echo. It deliberately starts at the HAL/CubeMX level for a quick win; the
@@ -56,7 +56,7 @@ rest of the course then peels that abstraction back down to the registers.
 
 | # | Module | Repository | What it covers |
 |---|--------|-----------|----------------|
-| 0 | Setup — dev env & first blink | [4100901-Intro_Project](https://github.com/saacifuentesmu/4100901-Intro_Project) | First class: validate the toolchain (VS Code, CubeMX, HAL) with a guided intro — heartbeat LED, button-triggered 3 s "unlock", and UART echo on the NUCLEO-L476RG |
+| 0 | Setup — dev env & first blink | [4100901-0-Intro_Project](https://github.com/saacifuentesmu/4100901-0-Intro_Project) | First class: validate the toolchain (VS Code, CubeMX, HAL) with a guided intro — heartbeat LED, button-triggered 3 s "unlock", and UART echo on the NUCLEO-L476RG |
 | 1 | Foundations — bare metal | [4100901-1-bare-metal-foundations](https://github.com/saacifuentesmu/4100901-1-bare-metal-foundations) | The STM32L476 from registers up: ARM ISA & assembly, clock tree, GPIO, EXTI/NVIC, SysTick, UART and TIM/PWM — no HAL |
 | 2 | Lab 1 — peripherals | [4100901-2-peripherals-lab](https://github.com/saacifuentesmu/4100901-2-peripherals-lab) | Measuring the physical behaviour of peripherals: button RC settling, PWM frequency/duty, UART bit timing — with logic analyzer and scope |
 | 3 | Midterm workshop | [4100901-3-midterm-room-control](https://github.com/saacifuentesmu/4100901-3-midterm-room-control) | Practical assessment: extend the room-control firmware (UART commands, PWM duty, door/occupancy state) |
